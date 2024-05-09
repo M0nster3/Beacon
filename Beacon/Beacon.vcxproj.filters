@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\MetaData">
+      <UniqueIdentifier>{c080beae-b605-4553-9fed-0d69133780cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Util">
+      <UniqueIdentifier>{5b78ffdf-c6a7-4564-a111-4330e03fe7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Command">
+      <UniqueIdentifier>{4b192a07-2beb-49bf-9f1b-01107daae80f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Beacon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaData.c">
+      <Filter>源文件\MetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Http.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.c">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="File.c">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Shell.c">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bof.c">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="InjectProcess.c">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Patch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuangMing.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdExecuteAssembly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DunpHash.c">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MetaData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Http.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bof.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuangMing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="bcookesHalosGate.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
